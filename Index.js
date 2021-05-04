@@ -5,7 +5,7 @@ Code Below provides info about the bot
 once it's ready
 */
 client.once("ready", () => {
-  console.log(`[STATUS] ${client.user.tag} is now online!\n[INFO] Bot by ZeroSync https://www.youtube.com/channel/UCF9E-xef9jL9QgziZRDHKKQ\n[INFO] Bot serving on Ready to serve in ${client.guilds.cache.size} servers\n[INFO] Bot serving ${client.users.cache.size} users\n[Invite Link] https://discord.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`)
+  console.log(`[STATUS] ${client.user.tag} is now online!\n[INFO] Bot by robot`)
 });
 /* Client when detects a message 
 then execute the code */
@@ -26,6 +26,6 @@ client.on("guildMemberAdd", async member => {
   .setThumbnail(client.user.avatarURL)
   .setTimestamp()
   .setFooter('Thanks For Joining!')
-  channel.send(WELCOME)
+  channel.send(🌍〢chat)
 })
-client.login("BOTTOKENHERE"); // Login with the token make sure to add it when starting
+client.login("ODI5MDYwMjU4NjE4MDE1NzU1.YGyoiA.HBofJBCLkzn0dxss59AlQCAPjH8 "); // Login with the token make sure to add it when starting
